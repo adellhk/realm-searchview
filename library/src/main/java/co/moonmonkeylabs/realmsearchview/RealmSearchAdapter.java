@@ -28,7 +28,7 @@ import io.realm.Sort;
 /**
  * A custom adapter for the {@link RealmSearchView}. It has options to customize the filtering.
  */
-public abstract class RealmSearchAdapter<T extends RealmObject, VH extends RealmSearchViewHolder>
+public abstract class RealmSearchAdapter<T extends RealmModel, VH extends RealmSearchViewHolder>
         extends RealmBasedRecyclerViewAdapter<T, VH> {
 
     private Realm realm;
