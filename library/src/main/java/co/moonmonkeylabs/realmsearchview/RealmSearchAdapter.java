@@ -20,8 +20,8 @@ import java.util.Map;
 import io.realm.Case;
 import io.realm.Realm;
 import io.realm.RealmBasedRecyclerViewAdapter;
-import io.realm.RealmObject;
 import io.realm.RealmQuery;
+import io.realm.RealmModel;
 import io.realm.RealmResults;
 import io.realm.Sort;
 
